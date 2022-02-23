@@ -1,0 +1,21 @@
+{% extends "quiz/layout.html" %}
+    {% block body %}
+    {% load static %}
+        <div id="end">
+            {% if level %}
+            <h1 id='level'>{{level}} skills</h1>
+            {% else %}
+            <h1 id='level'>You haven't done the test yet</h1>
+            {% endif %}
+            <a href="/start">TRY AGAIN</a>
+            <div id="line">
+                <hr>
+                <hr>
+            </div>        
+        </div>
+        <div id='bar'>
+            <hr>
+            <hr>
+        </div>
+        
+    {% endblock %}

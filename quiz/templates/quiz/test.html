@@ -1,0 +1,18 @@
+{% extends "quiz/layout.html" %}
+    {% block body %}
+    {% load static %}
+        <div id="choice">
+            <h1 id='question'></h1>           
+            <div id="choice">
+                <div id='time'>
+                    <p>&nbsp;</p>
+                </div>
+                <p id='counter'></p>
+                <button id='btn1' type="button" class="btn btn-outline-warning"></button>
+                <button id='btn2' type="button" class="btn btn-outline-warning"></button>
+                <button id='btn3' type="button" class="btn btn-outline-warning"></button>
+                <button id='btn4' type="button" class="btn btn-outline-warning"></button>                
+            </div>            
+        </div>
+        
+    {% endblock %}
